@@ -4,7 +4,7 @@ import { setupResponsiveImage } from 'ember-responsive-image/test-support';
 import {
   setupRenderingTest
 } from 'ember-mocha';
-import hbs from 'htmlbars-inline-precompile';
+import { hbs } from 'ember-cli-htmlbars';
 import {
   it,
   describe

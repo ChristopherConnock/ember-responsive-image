@@ -5,7 +5,7 @@ import {
   describe
 } from 'mocha';
 import { setupRenderingTest } from 'ember-mocha';
-import hbs from 'htmlbars-inline-precompile';
+import { hbs } from 'ember-cli-htmlbars';
 
 describe('Helper: ResponsiveImageResolve', function() {
   setupRenderingTest();

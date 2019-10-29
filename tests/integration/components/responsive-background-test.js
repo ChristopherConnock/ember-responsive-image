@@ -8,7 +8,7 @@ import {
   it,
   describe
 } from 'mocha';
-import hbs from 'htmlbars-inline-precompile';
+import { hbs } from 'ember-cli-htmlbars';
 
 describe('Integration: ResponsiveBackgroundComponent', function() {
   let hooks = setupRenderingTest();
